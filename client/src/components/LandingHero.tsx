@@ -1,12 +1,12 @@
 import { ArrowRight, Map, Users, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@assets/generated_images/Smart_city_aerial_view_52da3970.png';
 
 interface LandingHeroProps {
   onGetStarted: (role: 'citizen' | 'planner') => void;
 }
 
 export default function LandingHero({ onGetStarted }: LandingHeroProps) {
+  const heroImage = "/assets/Smart_city_aerial_view_52da3970.png";
   return (
     <div className="relative min-h-screen flex items-center">
       <div 
