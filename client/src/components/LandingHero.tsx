@@ -6,7 +6,7 @@ interface LandingHeroProps {
 }
 
 export default function LandingHero({ onGetStarted }: LandingHeroProps) {
-  const heroImage = "/assets/Smart_city_aerial_view_52da3970.png";
+  const heroImage = "/Smart_city_aerial_view_52da3970.png";
   return (
     <div className="relative min-h-screen flex items-center">
       <div 
